@@ -1,62 +1,129 @@
-[
-        {
-            id: 'rgertg',
-            question: "I am a good boy",
-            hints: 'আমি একটা ভাল ছেলে',
-            options: [
-                { key: "a", value: "I" },
-                { key: "b", value: "Am" },
-                { key: "c", value: "A" },
-                { key: "d", value: "Good" },
-                { key: "e", value: "Boy" },
-                { key: "f", value: "mango" },
-                { key: "g", value: "sweet" },
-                { key: "h", value: "cute" },
-            ],
-            answer: ["a", "b", "c", "d", "e"],
-            type: "voiceReArrange"
-        },
-        {
-            id: 'dfg',
-            question: "I am a good boy",
-            hints: 'আমি একটা ভাল ছেলে',
-            options: [
-                { key: "a", value: "I" },
-                { key: "b", value: "Am" },
-                { key: "c", value: "A" },
-                { key: "d", value: "Good" },
-                { key: "e", value: "Boy" },
-                { key: "f", value: "mango" },
-                { key: "g", value: "sweet" },
-                { key: "h", value: "cute" },
-            ],
-            answer: ["a", "b", "c", "d", "e"],
-            type: "reArrange"
-        },
-        {
-            id: 'ghj',
-            question: "I am a __ boy",
-            hints: 'আমি একটা ভাল ছেলে',
-            options: [
-                { key: "a", value: "good" },
-                { key: "b", value: "Option 2" },
-                { key: "c", value: "Option 3" },
-                { key: "d", value: "Option 4" }
-            ],
-            answer: ["a"],
-            type: "fillInTheGap"
-        },
-        {
-            id: 'hyi',
-            question: "This is __ App",
-            hints: 'আমি একটা ভাল ছেলে',
-            options: [
-                { key: "a", value: "good" },
-                { key: "b", value: "Option 2" },
-                { key: "c", value: "supper" },
-                { key: "d", value: "Option 4" }
-            ],
-            answer: ["c"],
-            type: "fillInTheGap"
-        }
-    ]
+[{
+        id: 'rgertg',
+        question: "I am a good boy",
+        hints: 'আমি একটা ভাল ছেলে',
+        options: [{
+                key: "a",
+                value: "I"
+            },
+            {
+                key: "b",
+                value: "Am"
+            },
+            {
+                key: "c",
+                value: "A"
+            },
+            {
+                key: "d",
+                value: "Good"
+            },
+            {
+                key: "e",
+                value: "Boy"
+            },
+            {
+                key: "f",
+                value: "mango"
+            },
+            {
+                key: "g",
+                value: "sweet"
+            },
+            {
+                key: "h",
+                value: "cute"
+            },
+        ],
+        answer: ["a", "b", "c", "d", "e"],
+        type: "voiceReArrange"
+    },
+    {
+        id: 'dfg',
+        question: "I am a good boy",
+        hints: 'আমি একটা ভাল ছেলে',
+        options: [{
+                key: "a",
+                value: "I"
+            },
+            {
+                key: "b",
+                value: "Am"
+            },
+            {
+                key: "c",
+                value: "A"
+            },
+            {
+                key: "d",
+                value: "Good"
+            },
+            {
+                key: "e",
+                value: "Boy"
+            },
+            {
+                key: "f",
+                value: "mango"
+            },
+            {
+                key: "g",
+                value: "sweet"
+            },
+            {
+                key: "h",
+                value: "cute"
+            },
+        ],
+        answer: ["a", "b", "c", "d", "e"],
+        type: "reArrange"
+    },
+    {
+        id: 'ghj',
+        question: "I am a __ boy",
+        hints: 'আমি একটা ভাল ছেলে',
+        options: [{
+                key: "a",
+                value: "good"
+            },
+            {
+                key: "b",
+                value: "Option 2"
+            },
+            {
+                key: "c",
+                value: "Option 3"
+            },
+            {
+                key: "d",
+                value: "Option 4"
+            }
+        ],
+        answer: ["a"],
+        type: "fillInTheGap"
+    },
+    {
+        id: 'hyi',
+        question: "This is __ App",
+        hints: 'আমি একটা ভাল ছেলে',
+        options: [{
+                key: "a",
+                value: "good"
+            },
+            {
+                key: "b",
+                value: "Option 2"
+            },
+            {
+                key: "c",
+                value: "supper"
+            },
+            {
+                key: "d",
+                value: "Option 4"
+            }
+        ],
+        answer: ["c"],
+        type: "fillInTheGap"
+    }
+]
